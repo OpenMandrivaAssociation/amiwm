@@ -76,7 +76,7 @@ rm -fr %{buildroot}
 %{_prefix}/X11R6/bin/ppmtoinfo
 %config(noreplace) /etc/X11/wmsession.d/*
 #%dir %{prefix}/lib/X11/%{name}/icons
-%{_mandir}/man1/amiwm.1.bz2
+%{_mandir}/man1/amiwm.1*
 #%{_bindir}/executecmd
 #%{_bindir}/Keyboard
 #%{_bindir}/requestchoice
