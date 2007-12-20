@@ -17,6 +17,7 @@ Source4:	%{name}-wmsession.xpm
 
 Requires:	mandrake_desk >= 7.2-18mdk, xloadimage
 BuildRequires:	X11-devel byacc flex
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 amiwm is an X window manager that tries to make your display look and feel
