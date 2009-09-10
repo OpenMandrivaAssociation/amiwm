@@ -1,6 +1,6 @@
 %define name	amiwm
 %define	version	0.20.48
-%define release	%mkrel 12 
+%define release	%mkrel 13
 
 Summary:  	A Window Manager for the X Window System
 Name:		%{name}
