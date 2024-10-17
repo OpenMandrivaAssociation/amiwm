@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	BSD
 Group:		Graphical desktop/Other
-URL:		http://www.lysator.liu.se/~marcus/amiwm.html
+URL:		https://www.lysator.liu.se/~marcus/amiwm.html
 Source:		%{name}-%{version}.tar.bz2
 Source1:	%{name}README
 Source2:	amiwmrc-default
