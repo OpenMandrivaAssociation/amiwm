@@ -16,6 +16,11 @@ Source3:	startamiwm
 Source4:	%{name}-wmsession.xpm
 
 Requires:	mandrake_desk >= 7.2-18mdk, xloadimage
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	X11-devel byacc flex
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
